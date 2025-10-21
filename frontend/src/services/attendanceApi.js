@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 // Base URL for the Express backend (Update this if your backend uses a different port)
-const API_URL = 'http://localhost:5000/api'; 
+const API_URL = 'https://fullstack-ebx8.onrender.com';
 
 // --- SUBJECTS & ATTENDANCE ---
 
