@@ -23,7 +23,7 @@ if (!MONGO_URI) {
 // 1. CORS: Allows the React frontend (e.g., http://localhost:3000) to communicate with this API
 const corsOptions = {
     // *** FIX: Changed origin from 3001 to 3000 ***
-    origin: 'http://localhost:3000', 
+    origin: 'https://fullstack-l75a.vercel.app/', 
     optionsSuccessStatus: 200 
 };
 app.use(cors(corsOptions));
